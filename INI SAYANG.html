@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our 1st Mensive</title>
+  <link rel="stylesheet" href="out.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Mensive sayang! 💙</h1>
+    <p class="message">
+      Sayang, I feel very lucky to meet you. Aku sesayaaang itu sama kamu, aku harap kita bisa begini terus yaa!<br>
+      Terima kasih sudah hadir di hidup aku <br>
+      Love you forever and always sayang <br>
+	  Sehabis ini buka PPT lagi yahh
+    </p>
+    <div class="photo-display">
+      <p>THESE ARE USS 📸</p>
+      <div class="photo-grid">
+        <div class="photo-item">
+          <img src="Jake.jpg" alt="Moment 1" onclick="toggleBox(0)" />
+          <div class="spotify-box" id="box-0">
+            <a href="https://open.spotify.com/track/01MXkFA8sL7at6txavDErt?si=roD4BvfeRBK1FU9wMNN0WA" target="_blank">🎵 Click This!</a>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="Jake2.jpg" alt="Moment 2" onclick="toggleBox(1)" />
+          <div class="spotify-box" id="box-1">
+            <a href="https://open.spotify.com/track/15MJ5NThPjj6xhPcts8MiY?si=a9xKNRqBRTmVM7ixE1G7NQ" target="_blank">🎵 This one too</a>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="Jake3.jpg" alt="Moment 3" onclick="toggleBox(2)" />
+          <div class="spotify-box" id="box-2">
+            <a href="https://open.spotify.com/track/2JoZzpdeP2G6Csfdq5aLXP?si=59PbwkYEQjW3ViKHVZIdow" target="_blank">🎵 This</a>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="Jake4.jpg" alt="Moment 4" onclick="toggleBox(3)" />
+          <div class="spotify-box" id="box-3">
+            <a href="https://open.spotify.com/track/2GBoo6ufWtMy1s6lqgbjJ8?si=4Jy-pcJTTmOzOFT25BICNQ" target="_blank">🎵 I adore you </a>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="Jake5.jpg" alt="Moment 5" onclick="toggleBox(4)" />
+          <div class="spotify-box" id="box-4">
+            <a href="https://open.spotify.com/track/1RS3LStQYhju50eBdD9Uul?si=X59ykAlISmemb7W7DFIK_g" target="_blank">🎵 I love you </a>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="Jake6.jpg" alt="Moment 6" onclick="toggleBox(5)" />
+          <div class="spotify-box" id="box-5">
+            <a href="https://open.spotify.com/track/0bfvHnWWOeU1U5XeKyVLbW?si=R-RvXPSETyG4RHSSo_AiPw" target="_blank">🎵 I cherish you</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleBox(index) {
+      const box = document.getElementById(`box-${index}`);
+      box.style.display = box.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
+
